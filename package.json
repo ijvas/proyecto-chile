@@ -1,0 +1,25 @@
+{
+  "name": "repo-con-hugo",
+  "version": "1.0.0",
+  "description": "This is a student project ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/main.scss css/styles.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ijvas/proyecto-chile.git"
+  },
+  "author": "Isma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ijvas/proyecto-chile/issues"
+  },
+  "homepage": "https://github.com/ijvas/proyecto-chile#readme",
+  "devDependencies": {
+    "node-sass": "^9.0.0",
+    "nodemon": "^3.1.5"
+  }
+}
